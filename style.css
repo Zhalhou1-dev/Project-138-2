@@ -1,0 +1,17 @@
+body
+{
+text-align: center;
+}
+.heading h3{
+    text-align: left;
+}
+.heading{
+    text-align: right;
+    width: 100%;
+}
+canvas{
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 5px 5px solid white;
+    
+}
