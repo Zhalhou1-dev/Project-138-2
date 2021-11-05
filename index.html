@@ -20,9 +20,29 @@
             <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Instructions</button>
           </div>
           <br><br>
+          <button class="btn btn-success" onclick="Restart()">Restart</button>
+          <br><br>
           <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
         <br><br>
         <h3 id="status" class="btn btn-info"></h3>
+
+        <div id="MyCanvas"></div>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" data-dismiss="modal">&times;</button>
+                  <h4>Instructions</h4>
+                </div>
+                <div class="modal-body">
+                  <h1>Move Your Mouse To Move the paddle</h1>
+                </div>
+              </div>
+            </div>
+            </div>            
+            <div class="copy_right_footer">
+                Developed by Zhalhou Kense
+            </div>
         <script src="main.js"></script>
     </body>
 </html>
